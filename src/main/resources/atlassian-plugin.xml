@@ -20,5 +20,12 @@
 
         <context>userPlugin</context>
     </web-resource>
+
+    <!-- Hello World macro example -->
+    <xhtml-macro name="helloworld" class="cn.anon.userPlugin.macro.helloworld" key='helloworld-macro'>
+        <description key="helloworld.macro.desc"/>
+        <category name="formatting"/>
+        <parameters/>
+    </xhtml-macro>
     
 </atlassian-plugin>
