@@ -25,7 +25,10 @@
     <xhtml-macro name="helloworld" class="cn.anon.userPlugin.macro.helloworld" key='helloworld-macro'>
         <description key="helloworld.macro.desc"/>
         <category name="formatting"/>
-        <parameters/>
+        <!-- 指定参数名称为Name并且类型为字符串 -->
+        <parameters>
+            <parameter name="Name" type="string" />
+        </parameters>
     </xhtml-macro>
     
 </atlassian-plugin>
