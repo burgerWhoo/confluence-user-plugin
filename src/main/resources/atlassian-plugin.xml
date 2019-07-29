@@ -28,6 +28,12 @@
         <!-- 指定参数名称为Name并且类型为字符串 -->
         <parameters>
             <parameter name="Name" type="string" />
+            <!-- 指定参数名称为Color并且类型为枚举，这将创建下拉菜单 -->
+            <parameter name="Color" type="enum" >
+                <value name="red"/>
+                <value name="green"/>
+                <value name="blue"/>
+            </parameter>
         </parameters>
     </xhtml-macro>
     
